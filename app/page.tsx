@@ -23,10 +23,12 @@ export default function Home() {
       </Card>
 
       <footer>
-        <div className="attribution">
-          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Your Name Here</a>.
-        </div>
+          <p>
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          </p>
+          <p>
+            Coded by <a href="https://www.haggardwebdev.space/"  target="_blank" >Felicia Haggard</a>.
+          </p>
       </footer>
     </main>
   );

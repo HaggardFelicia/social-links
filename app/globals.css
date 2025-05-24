@@ -39,3 +39,10 @@ p{
 Button{
   @apply text-sm font-bold mx-auto w-full my-3 bg-grey-700 text-white last-of-type:mt-3 last-of-type:mb-0 hover:bg-green hover:text-grey-900 cursor-pointer;
 }
+
+footer{
+  @apply text-center text-white text-xs mx-auto px-5;
+  a{
+    @apply text-green hover:underline hover:underline-offset-4;
+  }
+}
