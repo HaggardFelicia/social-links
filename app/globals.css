@@ -12,8 +12,11 @@
   --breakpoint-desktop: 1440px;
 }
 
+*{
+  @apply text-sm font-normal;
+}
 :root {
-  @apply bg-grey-900 h-full w-full text-sm text-white;
+  @apply bg-grey-900 h-full w-full text-white;
 }
 main{
   @apply w-full;
@@ -24,6 +27,15 @@ main{
 .img{
   @apply z-10 rounded-full h-14 w-14 mx-auto;
 }
+h2{
+  @apply text-xl font-bold;
+}
 .green-text{
-  @apply text-green;
+  @apply text-green font-semibold;
+}
+p{
+  @apply text-xs;
+}
+Button{
+  @apply text-sm font-bold mx-auto w-full my-3 bg-grey-700 text-white;
 }
