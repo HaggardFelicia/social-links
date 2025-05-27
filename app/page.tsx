@@ -11,7 +11,7 @@ export default function Home() {
         <div className="text-container">
           <h2>Jessica Randall</h2>
           <p className="green-text">London, United Kingdom</p>
-          <p>"Front-end developer and avid reader."</p>
+          <p>&quot;Front-end developer and avid reader.&quot;</p>
         </div>
         <div className="button-container">
           <Button as={Link} href="https://www.github.com" className="btn" target="_blank">GitHub</Button>
