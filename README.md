@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://)
-- Live Site URL: [](https://)
+- Solution URL: [Solution](https://)
+- Live Site URL: [Website](https://)
 
 ## My Process
 
