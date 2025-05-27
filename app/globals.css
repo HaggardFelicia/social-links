@@ -36,7 +36,7 @@ h2{
 p{
   @apply text-xs md:text-sm;
 }
-Button{
+.btn{
   @apply text-xs font-normal  min-w-full my-3 bg-grey-700 text-white last-of-type:mt-3 last-of-type:mb-0 hover:bg-green hover:text-grey-900 cursor-pointer focus:ring-0 md:font-semibold;
 }
 footer{

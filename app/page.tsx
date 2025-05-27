@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { Avatar, Button, Card } from "flowbite-react";
+import { Button, Card } from "flowbite-react";
 import jessica from './assets/images/avatar-jessica.jpeg'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,11 +14,11 @@ export default function Home() {
           <p>"Front-end developer and avid reader."</p>
         </div>
         <div className="button-container">
-          <Button>GitHub</Button>
-          <Button>Frontend Mentor</Button>
-          <Button>LinkedIn</Button>
-          <Button>Twitter</Button>
-          <Button>Instagram</Button>
+          <Button as={Link} href="https://www.github.com" className="btn" target="_blank">GitHub</Button>
+          <Button as={Link} href="https://www.frontendmentor.io" className="btn" target="_blank">Frontend Mentor</Button>
+          <Button as={Link} href="https://www.linkedin.com" className="btn" target="_blank">LinkedIn</Button>
+          <Button as={Link} href="https://x.com/" className="btn" target="_blank">Twitter</Button>
+          <Button as={Link} href="https://www.instagram.com/" className="btn" target="_blank">Instagram</Button>
         </div>
       </Card>
 
