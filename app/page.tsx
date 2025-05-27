@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Avatar, Button, Card } from "flowbite-react";
 import jessica from './assets/images/avatar-jessica.jpeg'
 
-
 export default function Home() {
   return (
     <main>
