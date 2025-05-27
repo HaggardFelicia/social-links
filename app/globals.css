@@ -19,27 +19,26 @@
   @apply bg-grey-900 h-full w-full text-white;
 }
 main{
-  @apply w-full;
+  @apply w-10/12 mx-auto md:w-1/4;
 }
 .container{
-  @apply z-0 bg-grey-800 max-w-fit mx-auto my-10 items-center text-center;
+  @apply z-0 bg-grey-800 max-w-fit mx-auto my-10 items-center text-center md:min-w-full;
 }
 .img{
-  @apply z-10 rounded-full h-14 w-14 mx-auto;
+  @apply z-10 rounded-full h-14 w-14 mx-auto md:h-20 md:w-20;
 }
 h2{
-  @apply text-xl font-bold;
+  @apply text-lg font-bold md:text-2xl;
 }
 .green-text{
   @apply text-green font-semibold mt-1 mb-5;
 }
 p{
-  @apply text-xs;
+  @apply text-xs md:text-sm;
 }
 Button{
-  @apply text-sm font-bold mx-auto w-full my-3 bg-grey-700 text-white last-of-type:mt-3 last-of-type:mb-0 hover:bg-green hover:text-grey-900 cursor-pointer;
+  @apply text-xs font-normal  min-w-full my-3 bg-grey-700 text-white last-of-type:mt-3 last-of-type:mb-0 hover:bg-green hover:text-grey-900 cursor-pointer focus:ring-0 md:font-semibold;
 }
-
 footer{
   @apply text-center text-white text-xs mx-auto px-5;
   a{
