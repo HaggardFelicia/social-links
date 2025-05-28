@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://)
-- Live Site URL: [Website](https://)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-fJvRCBFs1v)
+- Live Site URL: [Website](https://social-links-iota-ten.vercel.app/)
 
 ## My Process
 
